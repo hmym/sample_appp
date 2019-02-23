@@ -77,10 +77,22 @@ p {
     text-decoration: none;
   }
 }
-
-.navbar-nav li {
-  float: right;
+header {
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+    .dropdown-menu li{
+      clear: both;
+    }
+  }
 }
+// .navbar-nav li{
+//   float: right;
+// }
 
 /* footer */
 
